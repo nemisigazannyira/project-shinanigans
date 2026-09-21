@@ -1,0 +1,151 @@
+body {
+  background: linear-gradient(360deg, #000, #5f165f);
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo svg {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.navsav {
+  display: flex;
+  gap: 8px;
+}
+
+.navsav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.navsav a:hover {
+  background-color: #8b5cf6;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.eyebrow {
+  color: #a78bfa;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.box {
+  background-color: #15131c;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+}
+
+.kep {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.rovid {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 30px 20px;
+  background-color: #15131c;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.rovid p {
+  text-align: left;
+  color: #ccc;
+}
+
+.gomb {
+  display: inline-block;
+  background-color: #8b5cf6;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.gomb:hover {
+  background-color: #a78bfa;
+}
+
+.tamogatas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #1a1524;
+  border-radius: 10px;
+}
+
+.gomb2 {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gomb2:hover {
+  background-color: #a78bfa;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+  font-size: 13px;
+}
+
