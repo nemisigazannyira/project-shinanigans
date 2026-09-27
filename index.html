@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runeduel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14.5 17.5L3 6V3h3l11.5 11.5"/>
+      <path d="M13 19l6-6"/>
+      <path d="M16 16l4 4"/>
+      <path d="M19 21l2-2"/>
+    </svg>
+    <div>
+      <h2>Runeduel</h2>
+      <p>Társasjáték-műhely</p>
+    </div>
+  </div>
+
+  <nav class="navsav">
+    <a href="index.html" class="aktiv">A játék</a>
+    <a href="szabalyok.html">Szabályok</a>
+    <a href="#tamogatas">Projekt támogatása</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hex-dekor" aria-hidden="true">
+      <span class="hex"></span>
+      <span class="hex"></span>
+      <span class="hex"></span>
+    </div>
+    <p class="eyebrow">Papíron játszható taktikai játék</p>
+    <h1>Runeduel</h1>
+    <p class="hero-szoveg">Válassz hősöket, építs csapatot, és foglald el a hatszöges arénát négy fős csatákban.</p>
+    <div class="hero-gombok">
+      <a href="szabalyok.html" class="gomb">Szabályok megnézése</a>
+      <a href="#tamogatas" class="gomb-szel">Támogatás</a>
+    </div>
+  </section>
+
+  <section class="statsav">
+    <div class="stat">
+      <span class="stat-szam">2-4</span>
+      <span class="stat-cimke">játékos</span>
+    </div>
+    <div class="stat">
+      <span class="stat-szam">25-35</span>
+      <span class="stat-cimke">perc / parti</span>
+    </div>
+    <div class="stat">
+      <span class="stat-szam">24</span>
+      <span class="stat-cimke">hőskártya</span>
+    </div>
+    <div class="stat">
+      <span class="stat-szam">12+</span>
+      <span class="stat-cimke">ajánlott kor</span>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="box">
+      <h3>A játék adatai</h3>
+      <ul class="adatlista">
+        <li><span>Cél</span>a csapatod legyen az utolsó, akinek marad életpontja</li>
+        <li><span>Eszközök</span>24 kártya, 1 tábla, 36 jelölő és 20 érme</li>
+        <li><span>Nehézség</span>könnyen tanulható, gyors körökkel</li>
+        <li><span>Téma</span>fantasy, hősök csapatharca</li>
+        <li><span>Csomagolás</span>kártyák, tábla és jelölők egy dobozban</li>
+        <li><span>Játékstílus</span>taktikai, körökre osztott</li>
+        <li><span>Nyelv</span>magyar</li>
+        <li><span>Befejezés</span>ha valakinek elfogy az életpontja, vagy elfogynak az eseménykártyák</li>
+      </ul>
+    </div>
+
+    <div class="box box-kep">
+      <img src="rune-realm.png" alt="Rune Realm" class="kep">
+      <h3>Rune Realm</h3>
+      <p>A különböző vidékek hősei egy nagy arénában küzdenek. A legjobb csapat nyeri a játékot.</p>
+    </div>
+  </section>
+
+  <section class="rovid">
+    <h2>A játék röviden</h2>
+    <p>
+      A Runeduel egy gyors, papíron és kártyákon játszható taktikai csata 2-4 fő számára. Minden
+      játékos négy hőskártyából álló csapatot állít össze, majd felváltva helyezi őket a hatszöges
+      táblára. Számít, hova teszed a hősödet, mert csak a szomszédos mezőkre tud hatni.
+    </p>
+    <p>
+      Egy kör három részből áll: húzol egy eseménykártyát, ami módosítja az adott kör szabályait,
+      mozgatod vagy cseréled a hősödet, majd összehasonlítjátok a szomszédos hősök erejét - a
+      vesztes elveszít egy életpontot. A játék akkor ér véget, ha valakinek elfogy az életpontja,
+      vagy elfogynak az eseménykártyák, és ekkor a legtöbb életponttal rendelkező játékos nyer.
+    </p>
+    <a href="szabalyok.html" class="gomb">Teljes szabályok</a>
+  </section>
+
+</main>
+
+<section class="tamogatas" id="tamogatas">
+  <div>
+    <h3>Tetszik az ötlet?</h3>
+    <p>Támogasd a következő próbakört!</p>
+  </div>
+  <button class="gomb2" onclick="window.location.href='https://www.kickstarter.com/'">Támogatom</button>
+</section>
+
+<footer>
+  <p>&copy; 2026 Runeduel műhely - Iskolai társasjáték-prototípus</p>
+</footer>
+
+</body>
+</html>
